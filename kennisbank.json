@@ -1,0 +1,37 @@
+[
+  {
+    "id": "verzending-duur",
+    "titel": "Verzendtijd",
+    "tekst": "Bestellingen die voor 15:00 op een werkdag worden geplaatst, worden dezelfde dag verwerkt. De levering duurt 1 tot 2 werkdagen in België, 2 tot 4 werkdagen in Nederland, Luxemburg, Frankrijk en Duitsland, en 4 tot 7 werkdagen in de rest van Europa."
+  },
+  {
+    "id": "verzending-landen",
+    "titel": "Verzendlanden",
+    "tekst": "DemoShop levert in België, Nederland, Luxemburg, Frankrijk, Duitsland, Oostenrijk, Spanje en Italië. We leveren momenteel niet buiten de Europese Unie."
+  },
+  {
+    "id": "verzending-postbedrijf",
+    "titel": "Postbedrijf",
+    "tekst": "In België verzenden we met bpost. Voor Nederland gebruiken we PostNL, en voor de andere landen DHL. Na verzending ontvang je een track-and-tracecode per e-mail."
+  },
+  {
+    "id": "niet-geleverd",
+    "titel": "Bestelling niet geleverd",
+    "tekst": "Is je bestelling 5 werkdagen na de verwachte leverdatum nog niet aangekomen? Controleer eerst de track-and-tracelink in je bevestigingsmail en kijk of het pakket bij een buur of in een afhaalpunt ligt. Is het pakket nog steeds niet gevonden, mail dan naar support@demoshop.be met je bestelnummer. We starten een onderzoek bij de vervoerder en sturen een nieuw pakket of betalen je terug."
+  },
+  {
+    "id": "bestelling-wijzigen",
+    "titel": "Bestelling wijzigen",
+    "tekst": "Je kunt je bestelling wijzigen (adres, maat, aantal) zolang ze nog de status 'In behandeling' heeft, meestal binnen 2 uur na het plaatsen. Mail snel naar support@demoshop.be met je bestelnummer. Is de bestelling al verzonden, dan kan ze niet meer gewijzigd worden en kun je het product na ontvangst retourneren."
+  },
+  {
+    "id": "bestelling-annuleren",
+    "titel": "Bestelling annuleren",
+    "tekst": "Je kunt een bestelling kosteloos annuleren zolang ze nog niet is verzonden. Mail naar support@demoshop.be met je bestelnummer. Het bedrag wordt binnen 5 werkdagen teruggestort op je oorspronkelijke betaalmethode. Is de bestelling al verzonden, dan kun je ze retourneren."
+  },
+  {
+    "id": "retour",
+    "titel": "Retourneren",
+    "tekst": "Je hebt 14 dagen na ontvangst om een artikel te retourneren, zonder reden op te geven. Het artikel moet ongebruikt zijn en in de originele verpakking zitten. Vraag een retourlabel aan via 'Mijn bestellingen' op onze website. De verzendkost voor de retour is voor jouw rekening, tenzij het artikel defect is of fout geleverd werd. Na ontvangst en controle storten we het bedrag binnen 7 werkdagen terug."
+  }
+]
