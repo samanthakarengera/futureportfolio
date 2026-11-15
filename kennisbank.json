@@ -1,37 +1,121 @@
-[
-  {
+[{
     "id": "verzending-duur",
+    "categorie": "verzending",
     "titel": "Verzendtijd",
-    "tekst": "Bestellingen die voor 15:00 op een werkdag worden geplaatst, worden dezelfde dag verwerkt. De levering duurt 1 tot 2 werkdagen in België, 2 tot 4 werkdagen in Nederland, Luxemburg, Frankrijk en Duitsland, en 4 tot 7 werkdagen in de rest van Europa."
+    "tekst": "Bestellingen die op een werkdag voor 15:00 worden geplaatst, worden dezelfde dag verwerkt. De levering duurt 1 tot 2 werkdagen in België, 2 tot 4 werkdagen in Nederland, Luxemburg, Frankrijk en Duitsland, en 4 tot 7 werkdagen in Oostenrijk, Spanje en Italië."
   },
   {
     "id": "verzending-landen",
+    "categorie": "verzending",
     "titel": "Verzendlanden",
     "tekst": "DemoShop levert in België, Nederland, Luxemburg, Frankrijk, Duitsland, Oostenrijk, Spanje en Italië. We leveren momenteel niet buiten de Europese Unie."
   },
   {
     "id": "verzending-postbedrijf",
+    "categorie": "verzending",
     "titel": "Postbedrijf",
-    "tekst": "In België verzenden we met bpost. Voor Nederland gebruiken we PostNL, en voor de andere landen DHL. Na verzending ontvang je een track-and-tracecode per e-mail."
+    "tekst": "In België verzenden we met bpost, naar Nederland met PostNL en naar de andere landen met DHL."
   },
   {
-    "id": "niet-geleverd",
+    "id": "verzending-kosten",
+    "categorie": "verzending",
+    "titel": "Verzendkosten",
+    "tekst": "Verzenden kost 4,95 euro in België en 6,95 euro in de andere landen. Bestellingen vanaf 50 euro in België, Nederland en Luxemburg worden gratis verzonden. Voor de andere landen is de grens 75 euro."
+  },
+  {
+    "id": "verzending-tracking",
+    "categorie": "verzending",
+    "titel": "Track and trace",
+    "tekst": "Zodra je bestelling is verzonden, ontvang je een e-mail met een track-and-tracecode. Je vindt de code ook onder 'Mijn bestellingen' op onze website."
+  },
+  {
+    "id": "verzending-niet-geleverd",
+    "categorie": "verzending",
     "titel": "Bestelling niet geleverd",
-    "tekst": "Is je bestelling 5 werkdagen na de verwachte leverdatum nog niet aangekomen? Controleer eerst de track-and-tracelink in je bevestigingsmail en kijk of het pakket bij een buur of in een afhaalpunt ligt. Is het pakket nog steeds niet gevonden, mail dan naar support@demoshop.be met je bestelnummer. We starten een onderzoek bij de vervoerder en sturen een nieuw pakket of betalen je terug."
+    "tekst": "Is je bestelling 5 werkdagen na de verwachte leverdatum nog niet aangekomen? Controleer eerst de track-and-tracelink en vraag bij je buren of het afhaalpunt na. Is het pakket nog niet gevonden, mail dan naar support@demoshop.be met je bestelnummer. We starten een onderzoek bij de vervoerder en sturen een nieuw pakket of betalen je terug."
+  },
+  {
+    "id": "verzending-beschadigd",
+    "categorie": "verzending",
+    "titel": "Beschadigd of verkeerd artikel",
+    "tekst": "Is je pakket beschadigd of heb je een verkeerd artikel ontvangen? Mail binnen 48 uur na levering naar support@demoshop.be met je bestelnummer en foto's. We sturen kosteloos een vervanging of betalen je terug."
   },
   {
     "id": "bestelling-wijzigen",
+    "categorie": "bestelling",
     "titel": "Bestelling wijzigen",
-    "tekst": "Je kunt je bestelling wijzigen (adres, maat, aantal) zolang ze nog de status 'In behandeling' heeft, meestal binnen 2 uur na het plaatsen. Mail snel naar support@demoshop.be met je bestelnummer. Is de bestelling al verzonden, dan kan ze niet meer gewijzigd worden en kun je het product na ontvangst retourneren."
+    "tekst": "Je kunt je bestelling (adres, maat, aantal) wijzigen zolang ze de status 'In behandeling' heeft, meestal tot 2 uur na het plaatsen. Mail snel naar support@demoshop.be met je bestelnummer. Is de bestelling al verzonden, dan kan ze niet meer gewijzigd worden en kun je het artikel na ontvangst retourneren."
   },
   {
     "id": "bestelling-annuleren",
+    "categorie": "bestelling",
     "titel": "Bestelling annuleren",
     "tekst": "Je kunt een bestelling kosteloos annuleren zolang ze nog niet is verzonden. Mail naar support@demoshop.be met je bestelnummer. Het bedrag wordt binnen 5 werkdagen teruggestort op je oorspronkelijke betaalmethode. Is de bestelling al verzonden, dan kun je ze retourneren."
   },
   {
-    "id": "retour",
+    "id": "bestelling-factuur",
+    "categorie": "bestelling",
+    "titel": "Factuur",
+    "tekst": "Je factuur krijg je automatisch per e-mail bij de verzendbevestiging. Je kunt ze ook downloaden onder 'Mijn bestellingen'. Alle prijzen zijn inclusief btw."
+  },
+  {
+    "id": "retour-regels",
+    "categorie": "retour",
     "titel": "Retourneren",
-    "tekst": "Je hebt 14 dagen na ontvangst om een artikel te retourneren, zonder reden op te geven. Het artikel moet ongebruikt zijn en in de originele verpakking zitten. Vraag een retourlabel aan via 'Mijn bestellingen' op onze website. De verzendkost voor de retour is voor jouw rekening, tenzij het artikel defect is of fout geleverd werd. Na ontvangst en controle storten we het bedrag binnen 7 werkdagen terug."
+    "tekst": "Je hebt 14 dagen na ontvangst om een artikel te retourneren, zonder reden op te geven. Het artikel moet ongebruikt zijn en in de originele verpakking zitten. Vraag een retourlabel aan via 'Mijn bestellingen'. De verzendkost voor de retour is voor jouw rekening, tenzij het artikel defect is of fout geleverd werd."
+  },
+  {
+    "id": "retour-terugbetaling",
+    "categorie": "retour",
+    "titel": "Terugbetaling na retour",
+    "tekst": "Na ontvangst en controle van je retour storten we het bedrag binnen 7 werkdagen terug op je oorspronkelijke betaalmethode. De oorspronkelijke verzendkost wordt ook terugbetaald als je de volledige bestelling retourneert."
+  },
+  {
+    "id": "retour-omruilen",
+    "categorie": "retour",
+    "titel": "Omruilen",
+    "tekst": "Rechtstreeks omruilen kan niet. Retourneer het artikel en plaats een nieuwe bestelling voor de gewenste maat of kleur. Zo ben je zeker dat het artikel op voorraad is."
+  },
+  {
+    "id": "betaling-methoden",
+    "categorie": "betaling",
+    "titel": "Betaalmethoden",
+    "tekst": "Je kunt betalen met Bancontact, iDEAL, Visa, Mastercard en PayPal. Betalen bij levering of per overschrijving kan niet."
+  },
+  {
+    "id": "betaling-mislukt",
+    "categorie": "betaling",
+    "titel": "Betaling mislukt",
+    "tekst": "Mislukt je betaling? Probeer het opnieuw of kies een andere betaalmethode. Is er toch geld afgeschreven, dan wordt dat bedrag binnen 5 werkdagen automatisch teruggestort."
+  },
+  {
+    "id": "betaling-promocode",
+    "categorie": "betaling",
+    "titel": "Promocodes",
+    "tekst": "Je kunt per bestelling één promocode gebruiken. Promocodes zijn niet combineerbaar met artikelen uit de solden. Vul de code in bij het afrekenen."
+  },
+  {
+    "id": "klantendienst-contact",
+    "categorie": "klantendienst",
+    "titel": "Contact",
+    "tekst": "Je bereikt de klantendienst via support@demoshop.be of via deze chat. We zijn bereikbaar op werkdagen van 9:00 tot 17:00 en antwoorden binnen 1 werkdag."
+  },
+  {
+    "id": "klantendienst-account",
+    "categorie": "klantendienst",
+    "titel": "Account",
+    "tekst": "Wachtwoord vergeten? Klik op 'Wachtwoord vergeten' op de inlogpagina en je krijgt een e-mail om een nieuw wachtwoord in te stellen. Je kunt ook bestellen zonder account."
+  },
+  {
+    "id": "product-garantie",
+    "categorie": "product",
+    "titel": "Garantie",
+    "tekst": "Op alle artikelen geldt de wettelijke garantie van 2 jaar. Is een artikel defect, mail dan naar support@demoshop.be met je bestelnummer en een foto van het probleem."
+  },
+  {
+    "id": "product-voorraad",
+    "categorie": "product",
+    "titel": "Voorraad",
+    "tekst": "Een artikel dat 'Uitverkocht' is, kan momenteel niet besteld worden. Klik op 'Verwittig mij' bij het artikel en je krijgt een e-mail zodra het opnieuw beschikbaar is."
   }
 ]
