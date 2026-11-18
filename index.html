@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DemoShop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>DemoShop</h1>
+    <p>Woonaccessoires, snel bij je thuis.</p>
+  </header>
+
+  <main>
+    <section class="producten" aria-label="Producten">
+      <article class="product"><div class="foto">🕯️</div><h2>Geurkaars</h2><p>Cederhout, 40 branduren</p><strong>€ 14,95</strong></article>
+      <article class="product"><div class="foto">🪴</div><h2>Plantenpot</h2><p>Keramiek, 15 cm</p><strong>€ 19,95</strong></article>
+      <article class="product"><div class="foto">🛋️</div><h2>Sierkussen</h2><p>Linnen, 45 x 45 cm</p><strong>€ 24,95</strong></article>
+      <article class="product"><div class="foto">💡</div><h2>Tafellamp</h2><p>Mat zwart, warm licht</p><strong>€ 49,95</strong></article>
+    </section>
+
+    <section class="info">
+      <h2>Verzending, betaling en retour</h2>
+      <p>Heb je een vraag over je bestelling? Onze chatassistent helpt je graag verder.</p>
+    </section>
+  </main>
+
+  <!-- Chatwidget -->
+  <button id="chat-toggle" aria-label="Chat openen">💬</button>
+
+  <section id="chat-popup" class="verborgen" aria-label="Klantenservice chat">
+    <header class="chat-kop">
+      <span>Klantenservice</span>
+      <button id="chat-sluit" aria-label="Chat sluiten">✕</button>
+    </header>
+    <div id="chat-body"></div>
+    <form id="chat-form">
+      <input id="chat-input" type="text" placeholder="Stel je vraag..." autocomplete="off" required>
+      <button type="submit">Verstuur</button>
+    </form>
+  </section>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
